@@ -4,35 +4,39 @@ import { ContentEditable } from "@lexical/react/LexicalContentEditable";
 import { HistoryPlugin } from "@lexical/react/LexicalHistoryPlugin";
 import LexicalErrorBoundary from "@lexical/react/LexicalErrorBoundary";
 import TreeViewPlugin from "@/pages/plugins/TreeViewPlugin";
-import simpletheme from "@/pages/simpletheme";
+import simpletheme from "@/components/simpletheme";
+import { GrammarlyEditorPlugin } from "@grammarly/editor-sdk-react";
 
 const editorConfig = {
   theme: simpletheme,
   onError(error: any) {
-		throw error;
-	},
-  namespace: "My editor"
-  }
-
+    throw error;
+  },
+  namespace: "simple editor",
+};
 
 export default function Editor() {
   return (
-    <LexicalComposer initialConfig={editorConfig}>
-      <div className="editor-container">
-        <PlainTextPlugin
-          contentEditable={<ContentEditable className="editor-input" />}
-          placeholder={<Placeholder />}
-          ErrorBoundary={LexicalErrorBoundary}
-        />
-        <HistoryPlugin />
+    <GrammarlyEditorPlugin clientId="client_KWyxmir7xgLzzLByc4TkDc">
+      <LexicalComposer initialConfig={editorConfig}>
+        <div className="relative mb-2 rounded-xl p-4 shadow-lg">
+          <PlainTextPlugin
+            contentEditable={
+              <ContentEditable className="h-full p-1 focus:outline-none" />
+            }
+            placeholder={<Placeholder />}
+            ErrorBoundary={LexicalErrorBoundary}
+          />
+          <HistoryPlugin />
+        </div>
         <TreeViewPlugin />
-      </div>
-    </LexicalComposer>
+      </LexicalComposer>
+    </GrammarlyEditorPlugin>
   );
 }
 
 function Placeholder() {
   return (
-    <div className="absolute top-1 left-1 -z-10">Enter some rich text...</div>
+    <div className="absolute top-5 left-5 -z-10">Enter some simple text...</div>
   );
 }

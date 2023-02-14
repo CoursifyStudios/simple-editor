@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+In our quest to find the ideal text editor for Karasu LMS, we encountered various options that required us to make tradeoffs. Although Draft.js appeared to be an attractive choice, we were hesitant to invest in a project that was no longer receiving support. Other alternatives we stumbled upon were unsuitable due to their reliance on the cloud or lack of flexibility. Ultimately, we decided to create our own editor configuration using the Lexical Framework, which provided us with the freedom to customize and tailor the editor to our specific needs. 
+
+Due to Lexical's unreleased nature,This repository is a demonstration of a straightforward text editor configuration that can be achieved using Lexical.
+
 
 ## Getting Started
 

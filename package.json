@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@grammarly/editor-sdk-react": "^2.3.9",
     "@lexical/clipboard": "^0.8.0",
     "@lexical/plain-text": "^0.8.0",
     "@lexical/react": "^0.8.0",

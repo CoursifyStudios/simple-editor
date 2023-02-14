@@ -24,6 +24,18 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@grammarly/editor-sdk-react@^2.3.9":
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/@grammarly/editor-sdk-react/-/editor-sdk-react-2.3.9.tgz#ac63deaac63d12c0ddc0d69d049986bc2aa566b1"
+  integrity sha512-bmnt/JrPCyHi/+lMGnAdLQQY4esA1WxzweUcpIG9vQ+1tqQfqwt3KqWjlFvxndieg4ErVUt9jJm6aDmGBVrfLw==
+  dependencies:
+    "@grammarly/editor-sdk" "2.3.9"
+
+"@grammarly/editor-sdk@2.3.9":
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/@grammarly/editor-sdk/-/editor-sdk-2.3.9.tgz#0ce4da2d74911ef4e6bbcb9472793e2dfcc81613"
+  integrity sha512-d3tG8bf9JKq0bi6GhFMHjBYDGV7XyD4tRpLz1BPnQQav0vIEcdfgMWRVCkymyHvF2DKmOPjskQsfQuOFJa3f7w==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
