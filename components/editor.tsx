@@ -3,7 +3,7 @@ import { PlainTextPlugin } from "@lexical/react/LexicalPlainTextPlugin";
 import { ContentEditable } from "@lexical/react/LexicalContentEditable";
 import { HistoryPlugin } from "@lexical/react/LexicalHistoryPlugin";
 import LexicalErrorBoundary from "@lexical/react/LexicalErrorBoundary";
-import TreeViewPlugin from "@/pages/plugins/TreeViewPlugin";
+import TreeViewPlugin from "@/components/plugins/TreeViewPlugin";
 import simpletheme from "@/components/simpletheme";
 import { GrammarlyEditorPlugin } from "@grammarly/editor-sdk-react";
 
