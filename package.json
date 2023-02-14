@@ -9,16 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lexical/clipboard": "^0.8.0",
+    "@lexical/plain-text": "^0.8.0",
+    "@lexical/react": "^0.8.0",
+    "@lexical/selection": "^0.8.0",
+    "@lexical/utils": "^0.8.0",
     "@next/font": "13.1.6",
     "@types/node": "18.13.0",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.10",
+    "add": "^2.0.6",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "lexical": "^0.8.0",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.5"
+    "typescript": "4.9.5",
+    "yarn": "^1.22.19",
+    "yjs": "^13.5.45"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
