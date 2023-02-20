@@ -19,7 +19,7 @@ export default function Editor() {
   return (
     <GrammarlyEditorPlugin clientId="client_KWyxmir7xgLzzLByc4TkDc">
       <LexicalComposer initialConfig={editorConfig}>
-        <div className="relative mb-2 rounded-xl p-4 shadow-lg">
+        <div className="relative mb-2 rounded-xl p-4 shadow-2xl">
           <PlainTextPlugin
             contentEditable={
               <ContentEditable className="h-full p-1 focus:outline-none" />
