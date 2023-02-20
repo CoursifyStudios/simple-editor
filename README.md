@@ -13,6 +13,7 @@ Due to the nature of Lexical being in beta, we ran into multiple undocumented ed
 
 ## Features
 - Github flavored markdown support
+- Undo and redo via shortcuts
 - Built in grammar and spell checking using Grammarly SDK
 
 Built using Nextjs 13, TailwindCSS, and Typescript
